@@ -34,7 +34,7 @@ species_filter = st.selectbox(
 )
 
 
-island_filter = st.multiselectx("Island", df["island"].unique())
+island_filter = st.multiselect("Island", df["island"].unique())
 
 
 
