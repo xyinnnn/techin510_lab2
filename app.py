@@ -29,7 +29,7 @@ bill_length_slider  = st.slider(
 
 species_filter = st.selectbox(
     "Species", 
-    df["species"].unique,
+    df["species"].unique(),
     index=None
 )
 
