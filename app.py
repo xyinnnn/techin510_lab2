@@ -20,7 +20,7 @@ df = pd.read_csv("https://raw.githubusercontent.com/mcnakhaee/palmerpenguins/mas
 
 
 bill_length_slider  = st.slider(
-    "Bill Length (mm)"
+    "Bill Length (mm)",
     min(df["bill_length_mm"]),
     max(df["bill_length_mm"]),
 )
