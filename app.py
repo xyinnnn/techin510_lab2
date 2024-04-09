@@ -13,7 +13,7 @@ st.set_page_config(
 
 st.title("🐧Penguins Explorer")
 
-st.markdown("")
+st.markdown("A unique data analysis application specifically designed to uncover fascinating insights about penguins in the Arctic.")
 
 df = pd.read_csv("https://raw.githubusercontent.com/mcnakhaee/palmerpenguins/master/palmerpenguins/data/penguins.csv")
 
